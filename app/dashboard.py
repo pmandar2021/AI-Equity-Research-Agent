@@ -703,95 +703,102 @@ to
     # QUANT BACKTEST ENGINE
     # =========================================
 
-    st.subheader(
-        "📊 Quant Backtesting Engine"
-    )
+    # show_backtest = st.sidebar.checkbox(
+    #     "Show Quant Backtesting Results",
+    #     value=False
+    # )
+
+    # if show_backtest:
+
+    #     st.subheader(
+    #     "Quant Backtesting Engine"
+    #     )
 
 
-    b1,b2,b3 = st.columns(3)
+    # b1,b2,b3 = st.columns(3)
 
 
-    with b1:
+    # with b1:
 
-        st.metric(
+    #     st.metric(
 
-            "Strategy Return",
+    #         "Strategy Return",
 
-            f'{backtest["strategy_return"]}%'
+    #         f'{backtest["strategy_return"]}%'
 
-        )
-
-
-    with b2:
-
-        st.metric(
-
-            "Benchmark Return",
-
-            f'{backtest["benchmark_return"]}%'
-
-        )
+    #     )
 
 
-    with b3:
+    # with b2:
 
-        st.metric(
+    #     st.metric(
 
-            "Sharpe Ratio",
+    #         "Benchmark Return",
 
-            backtest["sharpe"]
+    #         f'{backtest["benchmark_return"]}%'
 
-        )
-
-
-    b4,b5 = st.columns(2)
+    #     )
 
 
-    with b4:
+    # with b3:
 
-        st.metric(
+    #     st.metric(
 
-            "Max Drawdown",
+    #         "Sharpe Ratio",
 
-            f'{backtest["max_drawdown"]}%'
+    #         backtest["sharpe"]
 
-        )
-
-
-    with b5:
-
-        st.metric(
-
-            "Win Rate",
-
-            f'{backtest["win_rate"]}%'
-
-        )
+    #     )
 
 
-    # =========================================
-    # EQUITY CURVE
-    # =========================================
-
-    st.subheader(
-        "📈 Equity Curve Analysis"
-    )
+    # b4,b5 = st.columns(2)
 
 
-    backtest_fig = backtest_chart(
+    # with b4:
 
-        backtest["data"]
+    #     st.metric(
 
-    )
+    #         "Max Drawdown",
+
+    #         f'{backtest["max_drawdown"]}%'
+
+    #     )
 
 
-    st.plotly_chart(
+    # with b5:
 
-        backtest_fig,
+    #     st.metric(
 
-        use_container_width=True
+    #         "Win Rate",
 
-    )
+    #         f'{backtest["win_rate"]}%'
+
+    #     )
+
+
+    # # =========================================
+    # # EQUITY CURVE
+    # # =========================================
+
+    # st.subheader(
+    #     "📈 Equity Curve Analysis"
+    # )
+
+
+    # backtest_fig = backtest_chart(
+
+    #     backtest["data"]
+
+    # )
+
+
+    # st.plotly_chart(
+
+    #     backtest_fig,
+
+    #     use_container_width=True
+
+    # )
 
 
         # =========================================
