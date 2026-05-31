@@ -1,5 +1,5 @@
-AI Equity Research Agent
-Quantitative Equity Research Platform for Indian Markets
+# AI Equity Research Agent
+## Quantitative Equity Research Platform for Indian Markets
 ## 📸 Dashboard Preview
 
 ### 🔎 Bloomberg-Style Search Terminal
@@ -36,7 +36,7 @@ Quantitative Equity Research Platform for Indian Markets
 
 ![AI Summary](Screenshots/AI%20Summary%20and%20News%20Analysis.png)
  
- 
+
 End-to-end quantitative equity research platform combining technical analysis, fundamental screening, multi-factor ranking, portfolio construction, and historical backtesting — built for data-driven investment decisions on Indian equities (NSE/BSE).
  
 What This Project Does
