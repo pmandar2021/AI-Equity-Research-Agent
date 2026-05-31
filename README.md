@@ -1,32 +1,32 @@
 # AI Equity Research Agent
 ## Quantitative Equity Research Platform for Indian Markets
-## 📸 Dashboard Preview
+## Dashboard Preview
 
-### 🔎 Bloomberg-Style Search Terminal
+### Bloomberg-Style Search Terminal
 
 ![Search Terminal](Screenshots/Search%20Terminal.png)
 
 ---
 
-### 📊 Technical Analysis Dashboard
+### Technical Analysis Dashboard
 
 ![Technical Analysis](Screenshots/Technical%20Analysis.png)
 
 ---
 
-### 📈 Technical Indicators & Market Signals
+### Technical Indicators & Market Signals
 
 ![Technical Indicator](Screenshots/Technical%20Indicator.png)
 
 ---
 
-### 🎯 Forecast Engine
+### Forecast Engine
 
 ![Forecast Engine](Screenshots/Forecast%20Engine.png)
 
 ---
 
-### 🏛️ Institutional Signal Engine
+###  Institutional Signal Engine
 
 ![Institutional Signal](Screenshots/Institutional%20Signal.png)
 
