@@ -1,10 +1,11 @@
 # AI Equity Research Agent
 ## Quantitative Equity Research Platform for Indian Markets
+
 ## Dashboard Preview
 
-### Bloomberg-Style Search Terminal
+### Equity Research Terminal
 
-![Search Terminal](Screenshots/Search%20Terminal.png)
+![Terminal](Screenshots/Terminal.png)
 
 ---
 
@@ -14,9 +15,9 @@
 
 ---
 
-### Technical Indicators & Market Signals
+### RSI & MACD Indicators
 
-![Technical Indicator](Screenshots/Technical%20Indicator.png)
+![RSI and MACD](Screenshots/RSI%20and%20MACD%20.png)
 
 ---
 
@@ -26,15 +27,15 @@
 
 ---
 
-###  Institutional Signal Engine
+### Institutional Signal Engine
 
-![Institutional Signal](Screenshots/Institutional%20Signal.png)
+![Institutional Signal Engine](Screenshots/Institutional%20Signal%20Engine.png)
 
 ---
 
-### AI Summary & News Analysis
+### AI Summary & News Sentiment
 
-![AI Summary](Screenshots/AI%20Summary%20and%20News%20Analysis.png)
+![AI Summary and News Sentiment](Screenshots/AI%20Summary%20and%20News%20Sentiment.png)
  
 
 End-to-end quantitative equity research platform combining technical analysis, fundamental screening, multi-factor ranking, portfolio construction, and historical backtesting — built for data-driven investment decisions on Indian equities (NSE/BSE).

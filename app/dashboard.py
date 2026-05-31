@@ -66,7 +66,7 @@ st.set_page_config(
 
     page_title="Terminal",
 
-    page_icon="📈",
+    page_icon="",
 
     layout="wide",
 
@@ -140,7 +140,7 @@ stocks_df = pd.read_csv(
 # =========================================
 
 st.sidebar.title(
-    "📊 Bloomberg Search"
+    "Search Stock"
 )
 
 
@@ -250,7 +250,7 @@ def load_analysis(stock):
 # RUN ANALYSIS BUTTON
 # =========================================
 
-if st.button("Run Institutional Analysis 🚀"):
+if st.button("Run Institutional Analysis"):
 
 
     with st.spinner("Running AI Equity Research..."):
@@ -262,7 +262,7 @@ if st.button("Run Institutional Analysis 🚀"):
     # LIVE HEADER
     # =========================================
 
-    st.subheader(f"📌 {search}")
+    st.subheader(f" {search}")
 
 
     top1,top2,top3 = st.columns(3)
@@ -529,13 +529,13 @@ to
     # SIGNAL CLASSIFICATION
     # =========================================
 
-    if tech["signal"] == "BUY 📈":
+    if tech["signal"] == "BUY":
 
         bullish_signals.append(
             "Price structure indicates bullish momentum"
         )
 
-    elif tech["signal"] == "SELL 📉":
+    elif tech["signal"] == "SELL":
 
         bearish_signals.append(
             "Technical trend remains weak"
@@ -548,7 +548,7 @@ to
         )
 
 
-    if tech["macd"] == "Bullish 📈":
+    if tech["macd"] == "Bullish":
 
         bullish_signals.append(
             "MACD crossover supports upward trend"
@@ -580,7 +580,7 @@ to
         )
 
 
-    if tech["volume"] == "Increasing 📈":
+    if tech["volume"] == "Increasing":
 
         bullish_signals.append(
             "Institutional participation increasing"
@@ -632,7 +632,7 @@ to
     # =========================================
 
     st.subheader(
-        "📌 Institutional AI Summary"
+        "Institutional AI Summary"
     )
 
 
@@ -662,7 +662,7 @@ to
     # =========================================
 
     st.subheader(
-        "📰 Institutional News Sentiment"
+        "Institutional News Sentiment"
     )
 
 
@@ -781,7 +781,7 @@ to
     # # =========================================
 
     # st.subheader(
-    #     "📈 Equity Curve Analysis"
+    #     "Equity Curve Analysis"
     # )
 
 
