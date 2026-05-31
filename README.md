@@ -32,7 +32,7 @@
 
 ---
 
-### 🤖 AI Summary & News Analysis
+### AI Summary & News Analysis
 
 ![AI Summary](Screenshots/AI%20Summary%20and%20News%20Analysis.png)
  
