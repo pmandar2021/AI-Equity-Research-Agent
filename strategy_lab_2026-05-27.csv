@@ -1,5 +1,0 @@
-strategy,TRAIN_return%,TRAIN_sharpe,TRAIN_maxDD%,TEST_return%,TEST_sharpe,TEST_maxDD%
-Momentum,77.43,1.09,-13.35,2.5,-0.6,-11.46
-Trend,86.5,1.35,-13.18,2.72,-0.61,-10.01
-MeanRev,9.52,-1.09,-3.67,4.88,-1.03,-4.37
-Breakout,40.99,0.76,-5.6,-5.02,-1.71,-8.05
