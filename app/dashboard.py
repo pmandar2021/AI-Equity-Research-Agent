@@ -602,7 +602,7 @@ to
 
     with col1:
 
-        st.markdown("## 🟢 Bullish")
+        st.markdown("Bullish")
 
         for signal in bullish_signals:
 
@@ -611,7 +611,7 @@ to
 
     with col2:
 
-        st.markdown("## 🔴 Bearish")
+        st.markdown("Bearish")
 
         for signal in bearish_signals:
 
@@ -620,7 +620,7 @@ to
 
     with col3:
 
-        st.markdown("## 🟡 Neutral")
+        st.markdown("Neutral")
 
         for signal in neutral_signals:
 
